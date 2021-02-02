@@ -1,0 +1,18 @@
+body {
+    background-image: url('https://i0.wp.com/www.sktthemes.org/wp-content/uploads/2019/08/choose-background.png?resize=640%2C427&ssl=1');
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    color: rgb(37, 39, 122);
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 12px;
+}

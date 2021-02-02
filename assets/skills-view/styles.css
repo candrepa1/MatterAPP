@@ -1,0 +1,55 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Inter', sans-serif;
+}
+
+.purple {
+    background-color: #353898;
+    border-radius: 12px;
+    height: 94vh;
+}
+
+.hr1 {
+    color: #9e9bb3;
+}
+
+a {
+    color: white;
+}
+
+.fa-brain {
+    color: #ffc061;
+}
+
+.fa-comment-dots, .fa-puzzle-piece {
+    margin-right: 5px;
+}
+
+.white {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.square {
+    background-color: #f58664;
+    width: 25px;
+    height: 27px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.size {
+    font-size: 13px;
+}
+
+.fa-shapes {
+    color: #20cba3;
+}
+
+.font-weight {
+    font-weight: 900;
+}
+
+.size17 {
+    font-size: 17px;
+}

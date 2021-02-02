@@ -1,0 +1,97 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Inter', sans-serif;
+}
+
+.purple {
+    background-color: #353898;
+    border-radius: 12px;
+    height: 94vh;
+}
+
+.white {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.fa-brain {
+    color: #ffc061;
+}
+
+.fa-seedling {
+    color: white;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    background-color: #adaede;
+}
+
+.circle-second {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #adaede;
+}
+
+a {
+    color: white;
+}
+
+.hr1 {
+    color: #9e9bb3;
+}
+
+.hr2 {
+    background-color: black;
+}
+
+.fa-comment-dots, .fa-puzzle-piece {
+    margin-right: 5px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.font-weight {
+    font-weight: 700;
+}
+
+.fa-angle-double-right {
+    color: #f58664;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.square {
+    background-color: #f58664;
+    width: 25px;
+    height: 27px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.card-skill {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.margin {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.card-width {
+    width: 65%;
+    background-color: #fce8e1;
+}
+
+.size14 {
+    font-size: 14px;
+}
+

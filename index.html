@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./home-view/styles.css">
+</head>
+<script src="/assets/js/middlewares/authenticated.js"></script>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-3">
+                <div class="purple p-4">
+                    <i class="fas fa-brain fa-2x"></i>
+                    <hr class="hr1">
+                    <nav class="d-flex flex-column">
+                        <a class="navbar-brand my-2" href="#">
+                        <i class="far fa-comment-dots"></i>
+                        Home
+                        </a>
+                        <a class="navbar-brand my-2" href="/skills-view/skills.html">
+                        <i class="fas fa-puzzle-piece"></i>
+                        Skills
+                        </a>
+                    </nav> 
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="white d-flex flex-column align-items-center p-2">
+                    <!-- <h2 class="mt-2"><ins>PROFILE</ins></h2> -->
+                    <div class="circle d-flex justify-content-center align-items-end mt-3">
+                        <i class="fas fa-seedling fa-5x"></i>
+                    </div>
+                    <h3 class="my-3" id="username"></h3>
+                    <hr class="hr2">
+                    <p class="text-muted">Feedback Received</p>
+                    <p class="text-muted">Feedback Given</p>
+                    <p class="text-muted">Pending Requests</p>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 w-100">
+                        <div class="white py-4 px-3">
+                            <div class="d-flex">
+                                <div class="circle-second d-flex justify-content-center align-items-end margin">
+                                    <i class="fas fa-seedling fa-2x"></i>
+                                </div>
+                                <p>User left you feedback on a skill endorsed you for one quality.</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="card card-skill">
+                                    <div class="card-body text-center d-flex flex-column justify-content-center">
+                                        <i class="fas fa-angle-double-right fa-2x"></i>
+                                        <p class="font-weight">Resilience</p>
+                                        <div class="d-flex">
+                                            <div class="square"></div>
+                                            <div class="square"></div>
+                                            <div class="square"></div>
+                                            <div class="square"></div>
+                                            <div class="square"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-width">
+                                    <div class="card-body">
+                                        <p class="size14">I think you're <b>excellent</b> at <b>Resilience</b>. I rated you 4/5</p>
+                                        <p class="size14">Here is <b>1 thing</b> I recommend you can start doing to improve your <b>Resilience</b> skill:</p>
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-light btn-sm">Advise</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="white p-4">
+                    <p class="font-weight">Send your feedback requests</p>
+                    <form id="invite-form">
+                        <div class="form-group mb-3">
+                          <label for="email">Email address:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 w-100">
+                        <div class="white p-4">
+                            <p class="font-weight">Edit your profile</p>
+                            <form id="name-form">
+                                <div class="form-group">
+                                    <label for="name">First Name:</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="Your first name" required>
+                                </div>
+                                <div class="form-group my-3">
+                                    <label for="name">Last Name:</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Your last name" required>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-success">Save Profile</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/assets/main.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
